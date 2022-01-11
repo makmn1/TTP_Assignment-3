@@ -10,8 +10,7 @@ console.log(cont2)
 
 //3) Select all of the list items with a class of "second".
 const listItemsWithClass = document.getElementsByClassName("second")
-console.log(listItemsWithClass[0])
-console.log(listItemsWithClass[1])
+console.log(listItemsWithClass)
 
 
 //4) Select a list item with a class of third, but only the list item inside of the ol tag.
@@ -53,7 +52,8 @@ for(let i = 0; i < listItems.length; i++){
 }
 
 
-//13) Remove the div with a class of footer.
-console.log(classFooter)
-classFooter.remove()
+// 13) Remove the div with a class of footer.
+const footerDiv = document.querySelector(".footer")
+footerDiv.remove()
+
 
